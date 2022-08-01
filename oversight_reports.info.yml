@@ -1,0 +1,5 @@
+name: 'Oversight.Gov Reports'
+type: module
+description: 'Get real-time reports from Oversite.Gov'
+core_version_requirement: ^8 || ^9
+package: 'Custom'

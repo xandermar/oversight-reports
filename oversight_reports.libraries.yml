@@ -1,0 +1,17 @@
+oversight_reports:
+    version: VERSION
+    css:
+      theme:
+        https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css: { type: external }
+        https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css: { type: external }
+        stylesheets/style.css: {}
+    js:
+      https://code.jquery.com/jquery-3.5.1.js: { type: external }
+      https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js: { type: external }
+      js/scripts.js: {}
+      js/datatables.js: {}
+    dependencies:
+      - core/jquery
+      - core/jquery.once
+      - core/drupal
+

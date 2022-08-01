@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains oversight_reports.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function usps_reports_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the oversight_reports module.
+    case 'help.page.oversight_reports':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Get real-time reports from Oversite.Gov') . '</p>';
+      return $output;
+
+    default:
+  }
+}

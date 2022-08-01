@@ -1,0 +1,6 @@
+oversight_reports.default_form:
+  title: 'Oversight.Gov Reports'
+  route_name: oversight_reports.default_form
+  description: 'Site configuration for real-time reports from Oversight.Gov'
+  parent: system.admin_config_services
+  weight: 99

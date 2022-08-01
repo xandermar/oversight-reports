@@ -1,0 +1,36 @@
+/* line 1, ../sass/style.scss */
+.left-rail {
+  color: #fff;
+  font-weight: bold;
+  background: #757575;
+  padding: 1rem;
+  border: solid thin;
+}
+
+/* line 9, ../sass/style.scss */
+.right-rail {
+  border: solid thin #ccc;
+  padding: 1rem;
+}
+
+/* line 14, ../sass/style.scss */
+h1#oversight_reports-title {
+  font-size: xx-large;
+}
+
+/* line 18, ../sass/style.scss */
+#recommendations-no-results > div:nth-child(1) {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+
+/* line 24, ../sass/style.scss */
+table#recommendations-results-table {
+  margin-top: 1rem;
+}
+
+/* line 28, ../sass/style.scss */
+h2#recommendations-results-title {
+  margin-top: 3rem;
+}

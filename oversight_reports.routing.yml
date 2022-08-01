@@ -1,0 +1,32 @@
+oversight_reports.default_form:
+  path: '/admin/config/oversight_reports'
+  defaults:
+    _form: '\Drupal\oversight_reports\Form\DefaultForm'
+    _title: 'Oversight.Gov Reports Configuration'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
+
+oversight_reports.default_controller_reports:
+  path: '/reports'
+  defaults:
+    _controller: '\Drupal\oversight_reports\Controller\DefaultController::reports'
+    _title: 'Reports'
+  requirements:
+    _permission: 'access content'
+
+oversight_reports.report_controller_report:
+  path: '/reports/{id}'
+  defaults:
+    _controller: '\Drupal\oversight_reports\Controller\ReportController::report'
+    _title_callback: '\Drupal\oversight_reports\Controller\ReportController::getTitle'
+  requirements:
+    _permission: 'access content'
+oversight_reports.recommendations_controller_recommendation:
+  path: '/reports/{id}/{rec_id}/{rec_number}'
+  defaults:
+    _controller: '\Drupal\oversight_reports\Controller\RecommendationsController::recommendation'
+    _title: 'Recommendation Details'
+  requirements:
+    _permission: 'access content'

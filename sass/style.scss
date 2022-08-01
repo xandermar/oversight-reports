@@ -1,0 +1,30 @@
+.left-rail {
+    color: #fff;
+    font-weight: bold;
+    background: #757575;
+    padding: 1rem;
+    border: solid thin;
+}
+
+.right-rail {
+    border: solid thin #ccc;
+    padding: 1rem;
+}
+
+h1#oversight_reports-title {
+    font-size: xx-large;
+}
+
+#recommendations-no-results>div:nth-child(1) {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+
+table#recommendations-results-table {
+    margin-top: 1rem;
+}
+
+h2#recommendations-results-title {
+    margin-top: 3rem;
+}
